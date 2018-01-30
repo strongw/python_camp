@@ -20,7 +20,7 @@ def fetch(url, raise_err=True):
     global download_pages
     try:
         # 使用requests抓取url
-        r = requests.get(url)
+        r = requests.get(url)111
         r.encoding = 'utf-8'
         download_pages += 1
         return r.text
